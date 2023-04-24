@@ -1,7 +1,7 @@
 **Code For AVA Challenge@ICME 2023**
-**Team: ALLAccept
+**Team: ALLAccept**
 
-Leaderboard: 0.61428 (top-3)**
+**Leaderboard: 0.61428 (top-3)**
 
 See technique report in report.pdf (For more details please refer to thesis.pdf)
 
