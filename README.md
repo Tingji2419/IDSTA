@@ -14,7 +14,7 @@ Once load them you can make predictions using:
 ```python
 model = torch.load(p.model_file)['model']
 all_pred, _, _, _, all_mil_pred = test_all_vis(testdata_loader, model, vis=True, device=device)
-threhold = 0.078450665 if p.data_class == freeway else 0.42367747
+threhold = 0.078450665 if p.data_class == "freeway" else 0.42367747
 pred = [max(pred) for pred in all_pred] if p.data_class == freeway else all_mil_pred
 predcitions = pred > threhold
 ```
